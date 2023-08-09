@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+
+    padding: 40px 0 0 55px;
+
+    background: url(./assets/background.jpg) center;
+    color: white;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+h1,h2,h3,h5{
+    font-family: 'Bellefair', serif;
+    font-weight: normal;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container nav{
+    max-width: 830px;
+    width: 100%;
+    background: hsla(223, 16%, 17%, 0.5);
+}
+
+.container nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+
+    height: 96px;
+    list-style-type: none;
+}
+
+.container nav ul li{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.container nav ul li:hover{
+    border-bottom: 1px solid white;
+}
+
+.container nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.container nav ul li b{
+    margin-right: 5px;
+}
+
+main{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+main h2{
+    font-family: 'Barlow Condensed', sans-serif;
+    margin-left: 160px;
+    font-size: 28px;
+    letter-spacing: 2px;
+}
+
+main h2 b{
+    margin-right: 10px;
+    color: #4f525a;
+
+}
+
+main .content{
+    display: flex;
+    justify-content: space-around;
+}
+
+main .content nav{
+    margin-bottom: 30px;
+}
+
+.container nav ul li a, .destinations{
+    letter-spacing: 2px;
+}
+
+main .content ul{
+    display: flex;
+    gap: 30px;
+
+    height: 35px;
+}
+
+main .content ul li{
+    display: inline;
+    height: 100%;
+}
+
+main .content ul li:hover{
+    border-bottom: 1px solid white;
+}
+
+main .content ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+section{
+    max-width: 445px;
+}
+
+.desc h1{
+    font-size: 100px;
+}
+
+.desc p{
+    font-size: 18px;
+}
+
+hr{
+    margin-top: 50px;
+}
+
+.datas{
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.datas h5{
+    font-size: 14px;
+}
+
+.datas p{
+    font-size: 28px;
+}
+
+.distance,
+.travel-time{
+    display: flex;
+    flex-direction: column;
+}
